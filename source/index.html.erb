@@ -5,18 +5,28 @@ title: Rails Girls Saint-Étienne
 <div class="hero">
   <header class="hero-header">
     <h1 class="event-name">Rails Girls <span>St‑Étienne</span></h1>
-    <h2 class="event-date">25-26 novembre 2016</h2>
-    <a href="#tickets" class="cta-tickets button">Inscrivez-vous</a>
+    <h2 class="event-details">8-9 novembre 2019 <br> @Atelier Numérique Google</h2>
+    <a href="https://forms.gle/3AJkJMNVNZNQHQte7" class="cta-tickets button">Inscrivez-vous</a>
   </header>
 </div>
 
 <main class="container" role="main">
   <div class="section event-description">
-    <p class="intro">
-      Rails Girls est un atelier gratuit d'une soirée et une journée,
-      durant lesquelles les participantes créent une application Web
-      complète à l'aide de Ruby on Rails, et de nos fantastiques mentors :)
-    </p>
+    <div class="intro">
+      <p class="lead">
+        Rails Girls est un atelier gratuit d'une soirée et une journée,
+        durant lesquelles les participantes créent une application Web
+        complète à l'aide de Ruby on Rails, et de nos fantastiques mentors 🤗
+      </p>
+
+      <p>
+        Vous êtes porteuse de projet ?<br>
+        Vous avez une idée et vous souhaitez la concrétiser ?<br>
+        Vous avez envie d'apprendre le code pour développer votre projet ?<br>
+        Vous rêvez tout simplement d'apprendre le code ?<br>
+      </p>
+      <p>Alors n'hésitez plus un instant ! Participez à cette belle aventure.</p>
+    </div>
 
     <div class="benefits">
       <h4>Vous apprendrez</h4>
@@ -30,7 +40,7 @@ title: Rails Girls Saint-Étienne
 
     <div class="help-us">
       <h4>Vous voulez aider ?</h4>
-      <p>Nous cherchons des volontaires, mentors et sponsors.<br><a href="mailto:mehdi@craftsmen.io">Un petit mail ?</a>
+      <p>Nous cherchons des volontaires, mentors et sponsors.<br><a href="mailto:lgandon@google.com">Un petit mail ?</a>
     </div>
   </div>
 
@@ -46,21 +56,20 @@ title: Rails Girls Saint-Étienne
   </div>
 
   <div id="tickets" class="section tickets">
-    <h3 class="section-header">Tickets</h3>
-    <div>
-      <iframe src="//eventbrite.fr/tickets-external?eid=28647208572&ref=etckt" frameborder="0" height="375" width="100%" vspace="0" hspace="0" allowtransparency="true"></iframe>
-    </div>
+    <h3 class="section-header">Inscriptions</h3>
+    <p>Inscrivez-vous san tarder en remplissant ce formulaire.</p>
+    <a href="https://forms.gle/3AJkJMNVNZNQHQte7" class="button">Inscrivez-vous</a>
   </div>
 
   <div class="section schedule">
     <h3 class="section-header">Au programme</h3>
-    <h4>Vendredi 25 novembre de 19h à 21h : Install Party</h4>
+    <h4>Vendredi 8 novembre de 18h à 20h : Install Party</h4>
     <p>
       Faites connaissance avec vos mentors, les autres élèves et... la machine !
       Amenez votre ordinateur portable, nous installerons Ruby on Rails ensemble.
     </p>
 
-    <h4>Samedi 26 novembre de 9h à 18h : Une journée les mains dans le cambouis (de pixels !)</h4>
+    <h4>Samedi 9 novembre de 9h à 18h : Une journée les mains dans le cambouis (de pixels 😜)</h4>
     <p>
       Les ateliers Rails Girls vous lancent, par petits groupes, dans les premiers pas du développement Web.<br>
       Vous aurez des présentations éclair, découverte du langage, la rencontre avec des personnes qui sont dans la même optique que vous, et bien sûr... du code !
@@ -69,10 +78,10 @@ title: Rails Girls Saint-Étienne
 
   <div class="section location">
     <h3 class="section-header">Lieu</h3>
-    <p>L'install party et la journée Rails Girls auront lieu au Bâtiment des Hautes Technologies,<br>20 rue Benoît Lauras, Saint-Étienne.</p>
-    <p>En <strong>voiture</strong>, un parking gratuit sera disponible.</p>
-    <p>En <strong>tramway</strong>, descendez à l'arrêt Chaléassière puis marchez 5 minutes.</p>
-    <p>Si vous êtes perdu(e), vous pouvez toujours appeler Mehdi au <a href="tel:+33642755592">06 42 75 55 92</a>.</p>
+    <p>L'install Party et la journée Rails Girls auront lieu à l'Atelier Numérique Google de Saint-Etienne situé,<br>11 place Jean-Moulin, Saint-Étienne.</p>
+    <p>En <strong>voiture</strong>, parking payant Antonin Moine.</p>
+    <p>En <strong>tramway</strong>, descendez à l'arrêt Jean-Moulin - vous y serez tout de suite !</p>
+    <p>Si vous êtes perdu(e), vous pouvez toujours appeler Linda au <a href="tel:+33615596495">06 15 59 64 95</a>.</p>
     <div class="location-map">
       <iframe width='100%' height='400px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/mehlah.nfmb7h36/attribution,zoompan.html?access_token=pk.eyJ1IjoibWVobGFoIiwiYSI6IlFYOVpsVkkifQ.0R__h2wpwHGkLtuC-JtqIw'></iframe>
     </div>
@@ -81,11 +90,8 @@ title: Rails Girls Saint-Étienne
   <div class="section sponsors">
     <h3 class="section-header">Sponsors</h3>
     <ul class="sponsors-grid">
-      <li><%= link_to image_tag('lyon-jug-logo.jpg'), 'http://www.lyonjug.org/' %></li>
-      <li><%= link_to image_tag('1dlab-logo.jpg'), 'http://1d-lab.eu/' %></li>
       <li><%= link_to image_tag('lewagon-logo.jpg'), 'https://www.lewagon.com/lyon' %></li>
     </ul>
-    <p>Vous souhaitez nous aider ? <a href="mailto:mehdi@craftsmen.io">Contactez-nous !</a></p>
   </div>
 
   <div class="section faq">
@@ -121,8 +127,8 @@ title: Rails Girls Saint-Étienne
     <p>
       <strong>Je peux vous aider ?</strong>
       Plus on est de mentors plus on rit :)
-      Manifestez-vous auprès de <a href="http://twitter.com/WebEnVert">@WebEnVert</a> sur Twitter !
-      Vous pouvez également nous aider en sponsorisant l'événement.
+      Manifestez-vous auprès de <a href="https://twitter.com/mehlah">@Mehdi</a> ou <a href="mailto:lgandon@google.com">@Linda</a> !
+      Vous pouvez également nous aider en sponsorisant l'événement : distribution de goodies et toutes bonnes idées sont les bienvenues :-)
     </p>
   </div>
 
@@ -133,27 +139,8 @@ title: Rails Girls Saint-Étienne
 </main>
 
 <div class="footer">
-  <div class="container">
-    <div class="links">
-      <nav>
-        <%= link_to 'Communiqué de presse', '/press' %>
-        <%= link_to 'Contact', 'mailto:mehdi@craftsmen.io' %>
-      </nav>
-    </div>
-
-    <div class="newsletter">
-      <form action="//craftsmen.us7.list-manage.com/subscribe/post?u=aee53628420c3051e5f7dcc23&amp;id=911d928859" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <label for="mce-EMAIL">Restez informées en vous inscrivant à notre newsletter</label>
-        <input type="email" value="" name="EMAIL" placeholder="Votre adresse email..." id="mce-EMAIL">
-        <input type="submit" value="Je m'abonne" name="subscribe" id="mc-embedded-subscribe">
-         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="position: absolute; left: -5000px;"><input type="text" name="b_aee53628420c3051e5f7dcc23_911d928859" tabindex="-1" value=""></div>
-      </form>
-    </div>
-  </div>
-
   <div class="credits">
-    <p>Shaped by the fine ladies and gentlemen from <%= link_to 'Web en Vert', 'http://webenvert.fr' %> & <%= link_to 'Craftsmen', 'http://craftsmen.io' %>.</p>
-    <p><%= link_to 'Get excited and make things!', 'http://railsgirls.com' %></p>
+    <p>Shaped by the fine ladies and gentlemen from <%= link_to 'Atelier Numérique Google', 'https://www.meetup.com/Atelier-Numerique-Google-Saint-Etienne/' %> & <%= link_to 'Mehdi', 'https://twitter.com/mehlah' %>.</p>
+    <p><%= link_to 'Get excited and make things!', 'https://railsgirls.com' %></p>
   </div>
 </div>
