@@ -573,8 +573,8 @@ html {
   max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
-  background: url("../images/hero-header.png") left 0 bottom 1.5em no-repeat;
-  min-height: 460px; }
+  background: url("../images/hero-header.png") left 0 bottom 0 no-repeat;
+  min-height: 360px; }
   .hero-header::after {
     clear: both;
     content: "";
@@ -582,7 +582,6 @@ html {
   @media screen and (max-width: 720px) {
     .hero-header {
       background: none;
-      min-height: 360px;
       text-align: center; } }
 
 .event-name {
