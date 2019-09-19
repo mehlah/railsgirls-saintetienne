@@ -7,12 +7,11 @@
 .hero-header {
   @include outer-container;
 
-  background: image-url("hero-header.png") left 0 bottom 1.5em no-repeat;
-  min-height: 460px;
+  background: image-url("hero-header.png") left 0 bottom 0 no-repeat;
+  min-height: 360px;
 
   @include media($small-screen) {
     background: none;
-    min-height: 360px;
     text-align: center;
   }
 }
