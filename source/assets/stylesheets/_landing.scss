@@ -9,10 +9,14 @@
 
   background: image-url("hero-header.png") left 0 bottom 0 no-repeat;
   min-height: 360px;
-
+  
   @include media($small-screen) {
     background: none;
     text-align: center;
+  }
+
+  .cta-tickets {
+    margin-bottom: $base-spacing;
   }
 }
 
